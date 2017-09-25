@@ -1,0 +1,2 @@
+
+# Tyrannei der dominanten Dekomposition
