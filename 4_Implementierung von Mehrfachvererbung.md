@@ -1,0 +1,3 @@
+
+
+# Implementierung von Mehrfachvererbung
