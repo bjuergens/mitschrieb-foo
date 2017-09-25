@@ -8,7 +8,7 @@
 
 **Typkonformanz**: Jedes `U` ist auch als `O` verwendbar, denn es hat mindestens die selben Members im `O`-Subobjekt
 
-Problem: U kann O -Methode so umdefinieren,dass sie etwas völlig anderes macht
+Problem: U kann O -Methode so umdefinieren, dass sie etwas völlig anderes macht
 
 ⇒ Stärkere Forderung:
 
@@ -71,7 +71,7 @@ Problem: Verhaltenskonformanz in der Praxis selten, weil schwierig umzusetzen
 
 Häufiger: Spezialisierung. (leistet auch etwas, jedoch was ganz anderes)
 
-![](assets/markdown-img-paste-20170923155316405.png){width=500}
+![](assets/markdown-img-paste-20170923155316405.png){width=300}
 
 Anwendung: Implementierung für Spezialfälle
 
@@ -79,7 +79,7 @@ Anwendung: Implementierung für Spezialfälle
 
 Implikation in Vererbungsrichtung
 
-![](assets/markdown-img-paste-20170923155454321.png){width=500}
+![](assets/markdown-img-paste-20170923155454321.png){width=300}
 
 ### Verhaltenskontravarianz
 

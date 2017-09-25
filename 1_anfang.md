@@ -12,7 +12,7 @@
 * Bezugsobjekt
 	* =  vpointer + alle subobjekte
 	* ist struct im Speicher
-	* 1 pro Instanzierung
+	* 1 pro Instanziierung
 	* Größe und relative Positionen innerhalb stehen zur compile time fest
 	* Absolute Position im Speicher steht zur run time fest
 * statischer Typ
@@ -26,6 +26,9 @@
 * verdeckt
 	* bei dynamisch: = überschrieben
 	* bei statisch: = versteckt
+* Objektlayout
+	* Diagram den Objektes im Speicher. Mit Subobjekte. Optional mit Attributen
+	* ![](assets/markdown-img-paste-20170923195638408.png){width=300}
 
 
 ## Dynamische Bindung
