@@ -37,7 +37,7 @@ wird zu:
 
 ### virtuelle Mehrfachvererbung
 
-![virtuelle Mehrfachvererbung](assets/markdown-img-paste-20170925164105393.png){width=500}
+![virtuelle Mehrfachvererbung](assets/markdown-img-paste-20170925164105393.png){width=150}
 
 	class C : A, virtual B { int c; };
 	B* pb; C* pc;
@@ -68,7 +68,7 @@ wird zu:
 * beim Methodenaufruf zusätzlicher Indirektionsschritt:
 	* `C* pc = new C(); pc->h(42);` wird zu `(*(pc->vptr[2]))(pc, 42)`
 
-![vtables  und Klassehierarchie](assets/markdown-img-paste-20170925165056907.png){width=200}
+![vtables  und Klassehierarchie](assets/markdown-img-paste-20170925165056907.png){width=300}
 
 ### Mehrfachvererbung mit vtables
 
@@ -76,11 +76,12 @@ wird zu:
 * jedes Subobjekt enthält Zeiger auf vtbl seines Subobjekt-Typs
 * jede Zeile enthält zusätzlich `delta`
 
-![Mehrfachvererbung mit vtables](assets/markdown-img-paste-20170925165202699.png){width=500}
 
 Problem: Methoden müssen ihren statischen Typ kennen, um `this` korrekt casten zu können.
 
 Lösung: pro Methode wird `delta` ebenfalls in `vtable` abgelegt. Damit kann dann beim Methodenaufruf gecastet werden.
+
+![Mehrfachvererbung mit vtables](assets/markdown-img-paste-20170926142010750.png){width=500}
 
 **Alternative zu Deltas: Thunks**
 

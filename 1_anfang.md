@@ -1,16 +1,12 @@
 
-**FOO**
-
-
-
 # Allgemeine Konzepte
 
 ## Vokabeln
 
 * Objekt
-	* context abhängig, meistens ="Bezugsobjekt"
+	* context abhängig, meistens = "Bezugsobjekt"
 * Bezugsobjekt
-	* =  vpointer + alle subobjekte
+	* =  alle subobjekte
 	* ist struct im Speicher
 	* 1 pro Instanziierung
 	* Größe und relative Positionen innerhalb stehen zur compile time fest
@@ -23,31 +19,35 @@
 	* ändern des statischen Types (bei C++ und Java)
 * virtual
 	* immer, wenn dem Stoustrup kein Wort eingefallen ist
+* smart
+	* immer wenn etwas einfaches kompliziert gemacht wird
 * verdeckt
 	* bei dynamisch: = überschrieben
 	* bei statisch: = versteckt
 * Objektlayout
 	* Diagram den Objektes im Speicher. Mit Subobjekte. Optional mit Attributen
-	* ![](assets/markdown-img-paste-20170923195638408.png){width=300}
+	* ![U1 Objekt mut pointer y vom Typ U1](assets/markdown-img-paste-20170923195638408.png){width=150}
 
 
 ## Dynamische Bindung
 
-Member: immer statisch
+Member:
+
+* immer statisch
 
 Funktionen:
 
-* öffentlich immer dynamisch
+* öffentlich: immer dynamisch
 * privat: immer statisch
 
 Zugriff auf verdeckte Member:
 
-* bei Statischer Bindung:
+* bei statischer Bindung:
 	* upcast dann Zugriff
 * bei dynamischer Bindung:
 	* C++:
 		*  `::`
-		* scope operator
+		* "_scope operator_"
 		* in Methoden: `K::c()`
 		* außerhalb: `o.K::c()`
 	* Java:
@@ -60,9 +60,9 @@ Zugriff auf verdeckte Member:
 
 ### Upcasts und dynamische Bindung
 
-**Upcasts schalten nicht die dynamische Bindung ab!**
+**Upcasts schalten _nicht_ die dynamische Bindung ab!**
 
-und downcasts?
+und downcasts auch nicht (vermutlich)
 
 ### this-Zeiger
 
@@ -75,10 +75,12 @@ $\Rightarrow$ es gilt dynamische Bindung
 subobjekte sind der Grund, weshalb statische Bindung geht.
 
 * pro Objekt ein supobjekt pro (geerbter) Klasse
-* layout:
-	* ganz oben: v-pointer
-	* oben: geerbte Attribute
-	* unten: eigene Attribute
+* Subobjekt besteht aus:
+	* vpointer (bei Einfachvererbung reicht 1 pro Gesamtobjekt)
+	* eigene Member
+* Objektlayout:
+	* oben: geerbte Subobjekte
+	* unten: Subobjekt der eigenen Klasse
 * Zugriff über statische offsets zur compile time
 
 
@@ -87,12 +89,12 @@ subobjekte sind der Grund, weshalb statische Bindung geht.
 v-table sind Grund weshalb dynamische Bindung geht.
 
 * global eine v-table pro Klasse
-* jedes Bezugsobjekt hat einen v-pointer, der auf die v-table seiner Klasse zeigt
+* jedes Bezugsobjekt (bzws. jeden Subobjekt bei Mehrfachvererbung) hat einen v-pointer, der auf die v-table seiner Klasse zeigt
 * enthält Einsprungadressen der Methoden:
 	* 1 Eintrag pro Methode
 	* redefinierte Methoden überschreiben geerbte Methoden
 * Position in vtable wird zur compile time bestimmt
-* Position des v-pointer: immer gleich im Bezugsobjekt (i.d.R ganz am Anfang)
+* Position des v-pointer: immer gleich im Subobjekt (i.d.R ganz am Anfang)
 * Zugriff zur run time:
 
 		load [x + OFFSET VPTR], reg0
@@ -114,10 +116,10 @@ In den Fällen wird bereits zur compile Zeit die Adresse der Funktion eingetrage
 
 ## Type Casts
 
-		class O { int a, b; }
-		class U extends O { int b, c; }
+	class O { int a, b; }
+	class U extends O { int b, c; }
 
-		O x = new U()
+	O x = new U()
 
 Durch casts wird *nur* ein anderes Subobjekt ausgewählt
 

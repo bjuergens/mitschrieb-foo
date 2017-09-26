@@ -2,7 +2,7 @@
 
 # Mehrfachvererbung
 
-![](assets/markdown-img-paste-20170923193841785.png){width=500}
+![](assets/markdown-img-paste-20170923193841785.png){width=250}
 
 ## Mehrfachvererbung in C++
 
@@ -10,7 +10,7 @@ C++ erlaubt Klassen-Mehrfachvererbung
 
 Beispielanwendung: GUI-Fenster mit Rand und Menüleiste
 
-![](assets/markdown-img-paste-20170923193812170.png){width=500}
+![](assets/markdown-img-paste-20170923193812170.png){width=300}
 
 
 	class Window {
@@ -29,9 +29,9 @@ Beispielanwendung: GUI-Fenster mit Rand und Menüleiste
 	};
 
 
-	BMW* bmw = new BMW(); // bmw i s t Zeiger auf BMW −Objekt
-	MW* mw = bmw; // I m p l i z i t e r Upcast
-	mw->area(); // Ruft BW: : area ( ) auf !
+	BMW* bmw = new BMW(); // bmw ist Zeiger auf BMW −Objekt
+	MW* mw = bmw; // Impliziter Upcast
+	mw->area(); // Ruft BW: : area( ) auf !
 
 ### Nicht-virtuelle Vererbung in C++
 
@@ -39,11 +39,12 @@ Beispielanwendung: GUI-Fenster mit Rand und Menüleiste
 * Durchgezogene Linie im Klassendiagramm
 * nur von historischer Bedeutung
 
-class BW : public W { ... };
+		class BW : public W { ... };
 
-![Klassendiagramm mit nicht-virtueller Vererbung](assets/markdown-img-paste-20170923194859283.png){width=500}
 
-![Subobjekte im Speicher. Mit Pointer `bmw` auf Hauptobjekt ](assets/markdown-img-paste-20170923194449338.png){width=500}
+![Klassendiagramm mit nicht-virtueller Vererbung](assets/markdown-img-paste-20170923194859283.png){width=200}
+
+![Subobjekte im Speicher. Mit Pointer `bmw` auf Hauptobjekt ](assets/markdown-img-paste-20170923194449338.png){width=300}
 
 
 ### virtuelle Vererbung in C++
@@ -55,18 +56,18 @@ class BW : public W { ... };
 
 	class BW : public virtual W { ... };
 
-![Virtuelle Vererbung im Speicher](assets/markdown-img-paste-2017092319471080.png){width=500}
+![Virtuelle Vererbung im Speicher](assets/markdown-img-paste-2017092319471080.png){width=300}
 
-![Klassendiagramm mit virtueller Vererbung](assets/markdown-img-paste-20170923194728155.png){width=500}
+![Klassendiagramm mit virtueller Vererbung](assets/markdown-img-paste-20170923194728155.png){width=150}
 
-![virtuelle Vererbung](assets/markdown-img-paste-20170923194216745.png){width=200}
+![Objektlayout bei virtueller Vererbung](assets/markdown-img-paste-20170923194216745.png){width=60}
 
 
 ## Subobjektgraphen
 
-![links: Klassendiagramm, mitte: Subobjektgraph, rechts: Objektlayout ](assets/markdown-img-paste-20170923195314298.png){width=500}
+![_links_: Klassendiagramm, _mitte_: Subobjektgraph, _rechts_: Objektlayout ](assets/markdown-img-paste-20170923195314298.png){width=600}
 
-Warum: Bei nicht-virtueller Vererbung entstehen komplxe Subobjekte, die z.T Duplikate enthalten
+Warum: Bei nicht-virtueller Vererbung entstehen komplexe Subobjekte, die z.T Duplikate enthalten
 
 * Knoten [C, C·B·A]:
 	* Subobjekte
@@ -83,12 +84,13 @@ Warum: Bei nicht-virtueller Vererbung entstehen komplxe Subobjekte, die z.T Dupl
 
 **Gegeben**: Klassenhierarchie mit virtueller und nicht-virtueller
 Vererbung
+
 **Gesucht**: Zugehöriger Subobjektgraph
 
 Definitionen:
 
 Symbol  | Bedeutung
------ | --------------------------------
+--- | ---
 $X <_N Y$ | $X$ erbt **direkt** und **nicht-virtuell** von $Y$
 $X <_V Y$ | $X$ erbt **direkt** und **virtuell** von $Y$
 $X < Y$ | $X$ erbt **direkt** von $Y$
@@ -103,16 +105,13 @@ $X \sqsubset_p Y$ | Pfad der Länge $p$ von $X$ nach $Y$,  $\sqsubset_1$ ist Kan
 	* und $Y<_N Z$
 * $[X,Z]$
 	* wenn  $[X, α]$ Subobjekt
-	* $∃_Y:$
+	* und $∃_Y:$
 		* $X <^* Y$
 		* und $Y <_V Z$
 
 #### Ermitteln der Kanten
 
-
 $\sqsubset_1$: Kante im Graph (sowohl getrichelt als auch durchgezogen)
-
-$X \sqsubset_p Y \Rightarrow \exists$ Pfad der Länge $p$ von $X$ nach $Y$
 
 * $[ X , α] \sqsubset_1 [ X , α · Y ]$
 	* _durchgezogen_
@@ -123,6 +122,7 @@ $X \sqsubset_p Y \Rightarrow \exists$ Pfad der Länge $p$ von $X$ nach $Y$
 ## Static Lookup
 
 **Gegeben**: Klasse `C` in Klassenhierarchie, Membername `m`
+
 **Gesucht**: „Speziellstes“ Subobjekt eines `C`-Objekts, in dem `m` deklariert ist
 
 Problem: Klasse `C` alleine reicht nicht. Man muss bei Subobjekt anfangen zu suchen.
@@ -134,7 +134,7 @@ Problem: Klasse `C` alleine reicht nicht. Man muss bei Subobjekt anfangen zu suc
 * `ο'`: gesuchtes Subobjekt
 * Beispiel: `lookup([C,C],x) = [C,C·B]`
 
-Falls mehreindeutig: Wähle Dominantes Subobjekt
+Falls mehreindeutig: Wähle Dominantes Subobjekt.
 Falls immernoch  mehreindeutig: `return ⊥`
 
 Dominanzrelation: Das dominante Subobjekt ist spezieller. D.h. es steht gibt im Subobjektgraphen einen Pfad vom dominanten Supobjekt zum dominiertem Subobjekt.
