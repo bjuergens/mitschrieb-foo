@@ -1,6 +1,8 @@
 
 # mitschrieb-foo
 
+Preview: https://rawgit.com/wotanii/mitschrieb-foo/master/build.html
+
 Dies ist meine Prüfungsvorbereitung für
 
 _Fortgeschrittene Objektorientierung_ bei _Prof. Snelting_ am _KIT_
