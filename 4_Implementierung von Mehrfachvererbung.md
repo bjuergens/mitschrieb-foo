@@ -8,6 +8,23 @@ Reminder aus Abschnitt 1:
 
 ![C++-Objektlayout](assets/markdown-img-paste-20170925162343872.png){width=500}
 
+## TOC
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [TOC](#toc)
+* [C++ Type Casts](#c-type-casts)
+	* [nicht-virtuelle Mehrfachvererbung](#nicht-virtuelle-mehrfachvererbung)
+	* [virtuelle Mehrfachvererbung](#virtuelle-mehrfachvererbung)
+	* [Ausnahmen](#ausnahmen)
+* [Implementierung vtables](#implementierung-vtables)
+	* [Mehrfachvererbung mit vtables](#mehrfachvererbung-mit-vtables)
+* [**(Z)** - Mehrfachvererbung in Java](#z-mehrfachvererbung-in-java)
+
+<!-- /code_chunk_output -->
+
+
 
 ## C++ Type Casts
 

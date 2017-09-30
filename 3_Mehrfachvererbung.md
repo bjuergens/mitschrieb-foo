@@ -4,6 +4,25 @@
 
 ![](assets/markdown-img-paste-20170923193841785.png){width=250}
 
+## TOC
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [TOC](#toc)
+* [Mehrfachvererbung in C++](#mehrfachvererbung-in-c)
+	* [Nicht-virtuelle Vererbung in C++](#nicht-virtuelle-vererbung-in-c)
+	* [virtuelle Vererbung in C++](#virtuelle-vererbung-in-c)
+* [Subobjektgraphen](#subobjektgraphen)
+	* [Konstruktion von Subobjektgraphen](#konstruktion-von-subobjektgraphen)
+* [Static Lookup](#static-lookup)
+	* [Formale Definition](#formale-definition)
+* [Dynamic lookup](#dynamic-lookup)
+* [Static lookup vs Dynamic lookup](#static-lookup-vs-dynamic-lookup)
+
+<!-- /code_chunk_output -->
+ 
+
 ## Mehrfachvererbung in C++
 
 C++ erlaubt Klassen-Mehrfachvererbung

@@ -1,6 +1,21 @@
 
 # Typsysteme für Objektorientierung
 
+_Anm. d. Red._: Kommt zwar vermutlich in Klausur dran, aber brauche ich in meinem Programmieralltag nicht. Daher wird hier nur sehr oberflächlich darauf eingegangen.
+
+## TOC
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [TOC](#toc)
+* [Basis](#basis)
+* [Erweiterungen des Typsystems](#erweiterungen-des-typsystems)
+
+<!-- /code_chunk_output -->
+
+
+
 ## Basis
 
 ## Erweiterungen des Typsystems

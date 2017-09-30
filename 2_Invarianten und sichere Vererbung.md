@@ -2,6 +2,25 @@
 
 # Invarianten und sichere Vererbung
 
+## TOC
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [TOC](#toc)
+* [Motivation](#motivation)
+* [Verhaltenskonformanz](#verhaltenskonformanz)
+	* [Vokabeln](#vokabeln)
+	* [Realisierung Verhaltenskonformanz](#realisierung-verhaltenskonformanz)
+* [Weitere Verhaltensbeziehungen](#weitere-verhaltensbeziehungen)
+	* [Spezialisierung](#spezialisierung)
+	* [Verhaltenskovarianz](#verhaltenskovarianz)
+	* [Verhaltenskontravarianz](#verhaltenskontravarianz)
+* [Inheritance is not Subtyping](#inheritance-is-not-subtyping)
+
+<!-- /code_chunk_output -->
+
+
 ## Motivation
 
 `class U extends O`

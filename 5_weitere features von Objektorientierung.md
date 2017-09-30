@@ -1,6 +1,28 @@
 
 # weitere features von Objektorientierung
 
+## TOC
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [TOC](#toc)
+* [Überladungen](#überladungen)
+	* [lookup](#lookup)
+	* [aufruf](#aufruf)
+	* [Smart-Pointer](#smart-pointer)
+* [Innere Klassen](#innere-klassen)
+	* [statische innere Klasse:](#statische-innere-klasse)
+	* [Dynamische innere Klassen](#dynamische-innere-klassen)
+* [Generics](#generics)
+	* [Typschranken](#typschranken)
+	* [Type Erasure](#type-erasure)
+	* [Vererbung bei generischen Klassen](#vererbung-bei-generischen-klassen)
+	* [Wildcards](#wildcards)
+
+<!-- /code_chunk_output -->
+
+
 ## Überladungen
 
 Jede überladene Variante hat eigenen vtable-Eintrag
