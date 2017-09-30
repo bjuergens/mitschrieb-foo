@@ -21,7 +21,7 @@
 * [Static lookup vs Dynamic lookup](#static-lookup-vs-dynamic-lookup)
 
 <!-- /code_chunk_output -->
- 
+
 
 ## Mehrfachvererbung in C++
 
