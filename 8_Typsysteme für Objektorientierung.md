@@ -5,12 +5,12 @@ _Anm. d. Red._: Kommt zwar vermutlich in Klausur dran, aber brauche ich in meine
 
 ## TOC
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true} -->
 <!-- code_chunk_output -->
 
-* [TOC](#toc)
-* [Basis](#basis)
-* [Erweiterungen des Typsystems](#erweiterungen-des-typsystems)
+1. [TOC](#toc)
+2. [Basis](#basis)
+3. [Erweiterungen des Typsystems](#erweiterungen-des-typsystems)
 
 <!-- /code_chunk_output -->
 

@@ -3,20 +3,20 @@
 
 ## TOC
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false}  -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true}  -->
 <!-- code_chunk_output -->
 
-* [TOC](#toc)
-* [Vokabeln](#vokabeln)
-* [Dynamische Bindung](#dynamische-bindung)
-	* [Upcasts und dynamische Bindung](#upcasts-und-dynamische-bindung)
-	* [this-Zeiger](#this-zeiger)
-* [Subobjekte](#subobjekte)
-* [v-table](#v-table)
-* [Abschalten dynamischer Bindung](#abschalten-dynamischer-bindung)
-* [Type Casts](#type-casts)
-* [Objektbegriff](#objektbegriff)
-* [Tücken der dynamischen Bindung](#tücken-der-dynamischen-bindung)
+1. [TOC](#toc)
+2. [Vokabeln](#vokabeln)
+3. [Dynamische Bindung](#dynamische-bindung)
+    1. [Upcasts und dynamische Bindung](#upcasts-und-dynamische-bindung)
+    2. [this-Zeiger](#this-zeiger)
+4. [Subobjekte](#subobjekte)
+5. [v-table](#v-table)
+6. [Abschalten dynamischer Bindung](#abschalten-dynamischer-bindung)
+7. [Type Casts](#type-casts)
+8. [Objektbegriff](#objektbegriff)
+9. [Tücken der dynamischen Bindung](#tücken-der-dynamischen-bindung)
 
 <!-- /code_chunk_output -->
 

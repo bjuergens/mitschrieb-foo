@@ -22,23 +22,23 @@ Ziel:
 
 ## TOC
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true} -->
 <!-- code_chunk_output -->
 
-* [TOC](#toc)
-* [Eigenschaften](#eigenschaften)
-	* [Fluss-Sensitivität](#fluss-sensitivität)
-	* [Kontext-Sensitivität](#kontext-sensitivität)
-* [Rapid Type Analysis](#rapid-type-analysis)
-	* [Call Graph](#call-graph)
-	* [Umgang mit dynamischer Bindung](#umgang-mit-dynamischer-bindung)
-	* [Reduktion des Call-Graphs](#reduktion-des-call-graphs)
-	* [RTA als Constraint-Problem](#rta-als-constraint-problem)
-	* [Fazit](#fazit)
-* [Points-To-Analyse](#points-to-analyse)
-	* [Points-To-Graph](#points-to-graph)
-	* [nach Anderson](#nach-anderson)
-	* [nach Stengaard](#nach-stengaard)
+1. [TOC](#toc)
+2. [Eigenschaften](#eigenschaften)
+    1. [Fluss-Sensitivität](#fluss-sensitivität)
+    2. [Kontext-Sensitivität](#kontext-sensitivität)
+3. [Rapid Type Analysis](#rapid-type-analysis)
+    1. [Call Graph](#call-graph)
+    2. [Umgang mit dynamischer Bindung](#umgang-mit-dynamischer-bindung)
+    3. [Reduktion des Call-Graphs](#reduktion-des-call-graphs)
+    4. [RTA als Constraint-Problem](#rta-als-constraint-problem)
+    5. [Fazit](#fazit)
+4. [Points-To-Analyse](#points-to-analyse)
+    1. [Points-To-Graph](#points-to-graph)
+    2. [nach Anderson](#nach-anderson)
+    3. [nach Stengaard](#nach-stengaard)
 
 <!-- /code_chunk_output -->
 
@@ -273,7 +273,7 @@ Beispiel (Einfachvorkettete Liste)
 	c.next = new C();	// o3 mit PT-Mengen für o3.data, o3.next
 	C c2 = c.next;
 
-![PT-Graph](assets/markdown-img-paste-20170928233324869.png){width=500}
+![PT-Graph](assets/markdown-img-paste-20170928233324869.png){width=200}
 
 **Behandlung Funktionen**
 

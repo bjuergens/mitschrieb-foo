@@ -10,17 +10,17 @@ Reminder aus Abschnitt 1:
 
 ## TOC
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true} -->
 <!-- code_chunk_output -->
 
-* [TOC](#toc)
-* [C++ Type Casts](#c-type-casts)
-	* [nicht-virtuelle Mehrfachvererbung](#nicht-virtuelle-mehrfachvererbung)
-	* [virtuelle Mehrfachvererbung](#virtuelle-mehrfachvererbung)
-	* [Ausnahmen](#ausnahmen)
-* [Implementierung vtables](#implementierung-vtables)
-	* [Mehrfachvererbung mit vtables](#mehrfachvererbung-mit-vtables)
-* [**(Z)** - Mehrfachvererbung in Java](#z-mehrfachvererbung-in-java)
+1. [TOC](#toc)
+2. [C++ Type Casts](#c-type-casts)
+    1. [nicht-virtuelle Mehrfachvererbung](#nicht-virtuelle-mehrfachvererbung)
+    2. [virtuelle Mehrfachvererbung](#virtuelle-mehrfachvererbung)
+    3. [Ausnahmen](#ausnahmen)
+3. [Implementierung vtables](#implementierung-vtables)
+    1. [Mehrfachvererbung mit vtables](#mehrfachvererbung-mit-vtables)
+4. [**(Z)** - Mehrfachvererbung in Java](#z-mehrfachvererbung-in-java)
 
 <!-- /code_chunk_output -->
 

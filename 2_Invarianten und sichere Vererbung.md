@@ -4,19 +4,19 @@
 
 ## TOC
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true} -->
 <!-- code_chunk_output -->
 
-* [TOC](#toc)
-* [Motivation](#motivation)
-* [Verhaltenskonformanz](#verhaltenskonformanz)
-	* [Vokabeln](#vokabeln)
-	* [Realisierung Verhaltenskonformanz](#realisierung-verhaltenskonformanz)
-* [Weitere Verhaltensbeziehungen](#weitere-verhaltensbeziehungen)
-	* [Spezialisierung](#spezialisierung)
-	* [Verhaltenskovarianz](#verhaltenskovarianz)
-	* [Verhaltenskontravarianz](#verhaltenskontravarianz)
-* [Inheritance is not Subtyping](#inheritance-is-not-subtyping)
+1. [TOC](#toc)
+2. [Motivation](#motivation)
+3. [Verhaltenskonformanz](#verhaltenskonformanz)
+    1. [Vokabeln](#vokabeln)
+    2. [Realisierung Verhaltenskonformanz](#realisierung-verhaltenskonformanz)
+4. [Weitere Verhaltensbeziehungen](#weitere-verhaltensbeziehungen)
+    1. [Spezialisierung](#spezialisierung)
+    2. [Verhaltenskovarianz](#verhaltenskovarianz)
+    3. [Verhaltenskontravarianz](#verhaltenskontravarianz)
+5. [Inheritance is not Subtyping](#inheritance-is-not-subtyping)
 
 <!-- /code_chunk_output -->
 

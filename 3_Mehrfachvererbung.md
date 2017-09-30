@@ -6,19 +6,19 @@
 
 ## TOC
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true} -->
 <!-- code_chunk_output -->
 
-* [TOC](#toc)
-* [Mehrfachvererbung in C++](#mehrfachvererbung-in-c)
-	* [Nicht-virtuelle Vererbung in C++](#nicht-virtuelle-vererbung-in-c)
-	* [virtuelle Vererbung in C++](#virtuelle-vererbung-in-c)
-* [Subobjektgraphen](#subobjektgraphen)
-	* [Konstruktion von Subobjektgraphen](#konstruktion-von-subobjektgraphen)
-* [Static Lookup](#static-lookup)
-	* [Formale Definition](#formale-definition)
-* [Dynamic lookup](#dynamic-lookup)
-* [Static lookup vs Dynamic lookup](#static-lookup-vs-dynamic-lookup)
+1. [TOC](#toc)
+2. [Mehrfachvererbung in C++](#mehrfachvererbung-in-c)
+    1. [Nicht-virtuelle Vererbung in C++](#nicht-virtuelle-vererbung-in-c)
+    2. [virtuelle Vererbung in C++](#virtuelle-vererbung-in-c)
+3. [Subobjektgraphen](#subobjektgraphen)
+    1. [Konstruktion von Subobjektgraphen](#konstruktion-von-subobjektgraphen)
+4. [Static Lookup](#static-lookup)
+    1. [Formale Definition](#formale-definition)
+5. [Dynamic lookup](#dynamic-lookup)
+6. [Static lookup vs Dynamic lookup](#static-lookup-vs-dynamic-lookup)
 
 <!-- /code_chunk_output -->
 

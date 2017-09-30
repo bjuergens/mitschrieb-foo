@@ -3,22 +3,22 @@
 
 ## TOC
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true} -->
 <!-- code_chunk_output -->
 
-* [TOC](#toc)
-* [Überladungen](#überladungen)
-	* [lookup](#lookup)
-	* [aufruf](#aufruf)
-	* [Smart-Pointer](#smart-pointer)
-* [Innere Klassen](#innere-klassen)
-	* [statische innere Klasse:](#statische-innere-klasse)
-	* [Dynamische innere Klassen](#dynamische-innere-klassen)
-* [Generics](#generics)
-	* [Typschranken](#typschranken)
-	* [Type Erasure](#type-erasure)
-	* [Vererbung bei generischen Klassen](#vererbung-bei-generischen-klassen)
-	* [Wildcards](#wildcards)
+1. [TOC](#toc)
+2. [Überladungen](#überladungen)
+    1. [lookup](#lookup)
+    2. [aufruf](#aufruf)
+    3. [Smart-Pointer](#smart-pointer)
+3. [Innere Klassen](#innere-klassen)
+    1. [statische innere Klasse:](#statische-innere-klasse)
+    2. [Dynamische innere Klassen](#dynamische-innere-klassen)
+4. [Generics](#generics)
+    1. [Typschranken](#typschranken)
+    2. [Type Erasure](#type-erasure)
+    3. [Vererbung bei generischen Klassen](#vererbung-bei-generischen-klassen)
+    4. [Wildcards](#wildcards)
 
 <!-- /code_chunk_output -->
 

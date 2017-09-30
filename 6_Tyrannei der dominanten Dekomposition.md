@@ -3,13 +3,13 @@
 
 ## TOC
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true} -->
 <!-- code_chunk_output -->
 
-* [TOC](#toc)
-* [Warum Dekomposition](#warum-dekomposition)
-* [bisherige Arten von Dekomposition](#bisherige-arten-von-dekomposition)
-* [Lösungsansätze](#lösungsansätze)
+1. [TOC](#toc)
+2. [Warum Dekomposition](#warum-dekomposition)
+3. [bisherige Arten von Dekomposition](#bisherige-arten-von-dekomposition)
+4. [Lösungsansätze](#lösungsansätze)
 
 <!-- /code_chunk_output -->
 
