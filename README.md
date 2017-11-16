@@ -3,20 +3,14 @@
 
 Preview: https://rawgit.com/wotanii/mitschrieb-foo/master/build.html
 
-Dies ist meine Prüfungsvorbereitung für
-
-_Fortgeschrittene Objektorientierung_ bei _Prof. Snelting_ am _KIT_
-
-Für Korrekturen und Hinweise bis zum 2.10.2017 bin ich dankbar. Danach interessiert es mich nicht mehr.
+Dies ist meine Prüfungsvorbereitung für _Fortgeschrittene Objektorientierung_ bei _Prof. Snelting_ am _KIT_
 
 Schwerpunkt meiner Vorbereitung ist alles, was:
 
 * praxisrelevant ist
 * sicher in der Klausur drann kommt
 
-Dementsprechend ziele ich auf eine 2.3, rechne jedoch mit eine 3.3 als Endnote.
-
-Am Ende werde ich das hier ausrdicken und mit in tie Klausur nehmen
+Mit dieser Vorbereitung wurde die End Note 2.7 erreicht (SS 2017). 
 
 ## Kompilierung
 
